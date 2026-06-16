@@ -1,4 +1,4 @@
-#🛒 Sistema de Ventas de Supermercado
+# 🛒 Sistema de Ventas de Supermercado
 
 
 Una cadena de supermercados necesita desarrollar un sistema para gestionar y analizar sus ventas.
