@@ -1,0 +1,4 @@
+S;1001;Juan Perez;Arroz;5;200.0 
+P;1002;Ana Gomez;Leche;3;500.0;150.0 
+S;1003;Luis Lopez;Fideos;10;100.0 
+P;1004;Maria Diaz;Aceite;2;800.0;200.0
