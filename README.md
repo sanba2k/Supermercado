@@ -6,7 +6,7 @@ Las ventas pueden ser de distintos tipos y cada una tiene un cálculo de importe
 
 El sistema deberá almacenar la información utilizando un HashMap y resolver distintos requerimientos usando Streams de Java.
 
-#🧾 Formato del archivo ventas.txt
+## 🧾 Formato del archivo ventas.txt
 
 Cada línea del archivo representa una venta y tiene el siguiente formato:
 
@@ -15,7 +15,7 @@ P;1002;Ana Gomez;3;500.0;150.0
 S;1003;Luis Lopez;10;100.0
 P;1004;Maria Diaz;2;800.0;200.0
 
-#📊 Tipos de Venta
+## 📊 Tipos de Venta
 
 🟢 Venta Simple (S)
 Tipo
@@ -28,8 +28,8 @@ Precio unitario
 Todos los datos de la venta simple
 Costo de envío adicional
 
-#🧩 Requisitos del sistema
-1️⃣ Lectura de datos
+## 🧩 Requisitos del sistema
+## 1️⃣ Lectura de datos
 
 Implementar una clase que lea el archivo ventas.txt y cargue los datos en un:
 
@@ -39,7 +39,7 @@ Donde:
 
 🔑 Key → código de venta
 📦 Value → objeto Venta (polimórfico)
-2️⃣ Modelo de clases
+## 2️⃣ Modelo de clases
 
 Implementar:
 
@@ -49,7 +49,7 @@ Clase VentaPremium
 
 Cada una debe definir su propio comportamiento para calcular el total de la venta.
 
-#3️⃣ Funcionalidades con Streams
+## 3️⃣ Funcionalidades con Streams
 
 Implementar los siguientes métodos utilizando Streams:
 
@@ -73,7 +73,7 @@ Obtener una lista con los nombres de clientes que realizaron compras premium.
 
 Calcular la cantidad total de productos vendidos en todas las ventas.
 
-#🚀 Objetivo
+## 🚀 Objetivo
 
 Aplicar conceptos de:
 
