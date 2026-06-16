@@ -10,19 +10,15 @@ El sistema deberá almacenar la información utilizando un HashMap y resolver di
 
 Cada línea del archivo representa una venta y tiene el siguiente formato:
 
-S;1001;Juan Perez;5;200.0 
-P;1002;Ana Gomez;3;500.0;150.0 
-S;1003;Luis Lopez;10;100.0 
-P;1004;Maria Diaz;2;800.0;200.0
+S;1001;Juan Perez;Arroz;5;200.0
+P;1002;Ana Gomez;Leche;3;500.0;150.0
+S;1003;Luis Lopez;Fideos;10;100.0
+P;1004;Maria Diaz;Aceite;2;800.0;200.0
 
 ## 📊 Tipos de Venta
 
 🟢 Venta Simple (S)
-Tipo
-Código de venta
-Nombre del cliente
-Cantidad de productos
-Precio unitario
+Tipo;Codigo;Cliente;Producto;Cantidad;PrecioUnitario
 
 🔴 Venta Premium (P)
 Todos los datos de la venta simple
